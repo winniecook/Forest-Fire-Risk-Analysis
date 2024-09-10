@@ -18,7 +18,7 @@ The dataset is sourced from the study by Faroudja ABID et al., "Predicting Fores
 
 Project Structure
 
-analysis.py: Contains the main analysis code.
+forestfirescript.py: Contains the main analysis code.
 forests.csv: Sample data file used for the analysis.
 README.md: This file.
 requirements.txt: Lists Python dependencies.
