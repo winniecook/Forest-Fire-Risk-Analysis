@@ -1,0 +1,25 @@
+# Nextflow specific
+.nextflow/
+.nextflow.log*
+work/
+.DS_Store
+
+# Results and data
+results/*
+!results/.gitkeep
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
