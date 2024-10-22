@@ -1,0 +1,41 @@
+Forest Fire Prediction Model Results
+===================================
+
+Model Performance
+-----------------
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00         1
+
+    accuracy                           1.00         1
+   macro avg       1.00      1.00      1.00         1
+weighted avg       1.00      1.00      1.00         1
+
+
+Confusion Matrix
+----------------
+[[1]]
+
+Feature Importance
+-----------------
+                 feature  importance
+0                   temp    0.229885
+1                     RH    0.160920
+7                    FWI    0.149425
+2                   wind    0.114943
+4                   FFMC    0.103448
+5                    ISI    0.103448
+6                    BUI    0.091954
+8  wind_rain_interaction    0.034483
+3                   rain    0.011494
+
+Model Parameters
+----------------
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+
+Data Statistics
+--------------
+Training set size: 4
+Test set size: 1
+Number of features: 9
+Features used: temp, RH, wind, rain, FFMC, ISI, BUI, FWI, wind_rain_interaction

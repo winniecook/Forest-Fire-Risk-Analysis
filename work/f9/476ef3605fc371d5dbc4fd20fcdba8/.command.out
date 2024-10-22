@@ -1,0 +1,12 @@
+Loading data from forests.csv
+
+Initial data shape: (5, 10)
+
+Columns in dataset: ['temp', 'RH', 'wind', 'rain', 'FFMC', 'ISI', 'BUI', 'FWI', 'region', 'fire']
+
+Cleaning data...
+Performing feature engineering...
+Normalizing features...
+
+Saving preprocessed data to preprocessed_data.csv
+Preprocessing completed successfully!

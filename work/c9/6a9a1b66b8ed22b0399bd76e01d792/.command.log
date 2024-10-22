@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/scripts/02_exploratory_analysis.py", line 69, in <module>
+    main(input_file, output_file)
+  File "/Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/scripts/02_exploratory_analysis.py", line 33, in main
+    heatmap = create_correlation_heatmap(df)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/scripts/02_exploratory_analysis.py", line 11, in create_correlation_heatmap
+    corr_matrix = df.corr()
+                  ^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 11049, in corr
+    mat = data.to_numpy(dtype=float, na_value=np.nan, copy=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 1993, in to_numpy
+    result = self._mgr.as_array(dtype=dtype, copy=copy, na_value=na_value)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/internals/managers.py", line 1694, in as_array
+    arr = self._interleave(dtype=dtype, na_value=na_value)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/internals/managers.py", line 1753, in _interleave
+    result[rl.indexer] = arr
+    ~~~~~~^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Bejaia'

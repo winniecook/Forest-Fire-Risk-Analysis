@@ -1,0 +1,14 @@
+Loading data from preprocessed_data.csv
+
+Data shape: (5, 11)
+
+Columns in dataset: ['temp', 'RH', 'wind', 'rain', 'FFMC', 'ISI', 'BUI', 'FWI', 'region', 'fire', 'wind_rain_interaction']
+
+Numeric columns: ['temp', 'RH', 'wind', 'rain', 'FFMC', 'ISI', 'BUI', 'FWI', 'fire', 'wind_rain_interaction']
+
+Creating correlation heatmap...
+Creating pairplot...
+Creating regional analysis plots...
+
+Combining plots...
+Exploratory analysis completed. Results saved to exploratory_plots.png

@@ -1,0 +1,113 @@
+Oct-22 10:47:18.780 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -resume
+Oct-22 10:47:18.839 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.4
+Oct-22 10:47:18.853 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/winniecook/.nextflow/plugins; core-plugins: nf-amazon@2.5.3,nf-azure@1.6.1,nf-cloudcache@0.4.1,nf-codecommit@0.2.1,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2-patch1,nf-tower@1.9.1,nf-wave@1.4.2-patch1
+Oct-22 10:47:18.859 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Oct-22 10:47:18.860 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Oct-22 10:47:18.862 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Oct-22 10:47:18.870 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Oct-22 10:47:18.917 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Oct-22 10:47:18.928 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [lethal_rubens] DSL2 - revision: 983603582e
+Oct-22 10:47:18.929 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Oct-22 10:47:18.930 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Oct-22 10:47:18.980 [main] DEBUG nextflow.Session - Session UUID: 786ae779-f672-4a52-9f09-e3ceb55d14c0
+Oct-22 10:47:18.980 [main] DEBUG nextflow.Session - Run name: lethal_rubens
+Oct-22 10:47:18.981 [main] DEBUG nextflow.Session - Executor pool size: 8
+Oct-22 10:47:18.987 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Oct-22 10:47:18.991 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Oct-22 10:47:19.008 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.04.4 build 5917
+  Created: 01-08-2024 07:05 UTC (08:05 BST)
+  System: Mac OS X 15.0.1
+  Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 17.0.13+0
+  Encoding: UTF-8 (UTF-8)
+  Process: 4352@Winnies-MacBook-Air.local [127.0.0.1]
+  CPUs: 8 - Mem: 8 GB (70.7 MB) - Swap: 0 (0)
+Oct-22 10:47:19.020 [main] DEBUG nextflow.Session - Work-dir: /Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/work [Mac OS X]
+Oct-22 10:47:19.020 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/bin
+Oct-22 10:47:19.029 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Oct-22 10:47:19.035 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Oct-22 10:47:19.052 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Oct-22 10:47:19.058 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Oct-22 10:47:19.115 [main] DEBUG nextflow.Session - Session start
+Oct-22 10:47:19.516 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Oct-22 10:47:19.522 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/winniecook/.nextflow/secrets/store.json
+Oct-22 10:47:19.526 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@523a7801] - activable => nextflow.secret.LocalSecretsProvider@523a7801
+Oct-22 10:47:19.596 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Oct-22 10:47:19.596 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-22 10:47:19.599 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Oct-22 10:47:19.602 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=8 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Oct-22 10:47:19.604 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Oct-22 10:47:19.655 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Oct-22 10:47:19.655 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-22 10:47:19.658 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Oct-22 10:47:19.658 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-22 10:47:19.662 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Oct-22 10:47:19.662 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-22 10:47:19.665 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: VISUALIZATION, PREPROCESS, STATISTICAL_MODELING, EXPLORATORY_ANALYSIS
+Oct-22 10:47:19.665 [main] DEBUG nextflow.Session - Igniting dataflow network (5)
+Oct-22 10:47:19.668 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PREPROCESS
+Oct-22 10:47:19.669 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > EXPLORATORY_ANALYSIS
+Oct-22 10:47:19.669 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > STATISTICAL_MODELING
+Oct-22 10:47:19.669 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > VISUALIZATION
+Oct-22 10:47:19.670 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_858d5d6d6c212901: /Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/main.nf
+Oct-22 10:47:19.670 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Oct-22 10:47:19.670 [main] DEBUG nextflow.Session - Session await
+Oct-22 10:47:19.776 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [87/056e27] Cached process > PREPROCESS (1)
+Oct-22 10:47:19.794 [Actor Thread 6] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Oct-22 10:47:19.830 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Oct-22 10:47:19.832 [Task submitter] INFO  nextflow.Session - [b6/eadb28] Submitted process > EXPLORATORY_ANALYSIS (1)
+Oct-22 10:47:19.836 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Oct-22 10:47:19.837 [Task submitter] INFO  nextflow.Session - [1c/b26dea] Submitted process > STATISTICAL_MODELING (1)
+Oct-22 10:47:23.338 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: EXPLORATORY_ANALYSIS (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/work/b6/eadb28344ffd1debe6d07fdca47a49]
+Oct-22 10:47:23.339 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Oct-22 10:47:27.675 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: STATISTICAL_MODELING (1); status: COMPLETED; exit: 1; error: -; workDir: /Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/work/1c/b26dea3ae6f301274d43aac9ef3c8f]
+Oct-22 10:47:27.677 [TaskFinalizer-2] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=STATISTICAL_MODELING (1); work-dir=/Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/work/1c/b26dea3ae6f301274d43aac9ef3c8f
+  error [nextflow.exception.ProcessFailedException]: Process `STATISTICAL_MODELING (1)` terminated with an error exit status (1)
+Oct-22 10:47:27.690 [TaskFinalizer-2] ERROR nextflow.processor.TaskProcessor - Error executing process > 'STATISTICAL_MODELING (1)'
+
+Caused by:
+  Process `STATISTICAL_MODELING (1)` terminated with an error exit status (1)
+
+
+Command executed:
+
+  python /Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/scripts/03_statistical_modeling.py preprocessed_data.csv model_results.txt
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+  Traceback (most recent call last):
+    File "/Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/scripts/03_statistical_modeling.py", line 60, in <module>
+      main(input_file, output_file)
+    File "/Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/scripts/03_statistical_modeling.py", line 39, in main
+      X_train, X_test, y_train, y_test = prepare_data(df)
+                                         ^^^^^^^^^^^^^^^^
+    File "/Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/scripts/03_statistical_modeling.py", line 13, in prepare_data
+      X = df[['temp', 'humid', 'wind', 'rain', 'FFMC', 'DMC', 'DC', 'ISI', 'BUI']]
+          ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/frame.py", line 4108, in __getitem__
+      indexer = self.columns._get_indexer_strict(key, "columns")[1]
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 6200, in _get_indexer_strict
+      self._raise_if_missing(keyarr, indexer, axis_name)
+    File "/opt/anaconda3/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 6252, in _raise_if_missing
+      raise KeyError(f"{not_found} not in index")
+  KeyError: "['humid', 'DMC', 'DC'] not in index"
+
+Work dir:
+  /Users/winniecook/Documents/Updating_Projects/Script_Projects/forest-fire-analysis/work/1c/b26dea3ae6f301274d43aac9ef3c8f
+
+Tip: view the complete command output by changing to the process work dir and entering the command `cat .command.out`
+Oct-22 10:47:27.694 [main] DEBUG nextflow.Session - Session await > all processes finished
+Oct-22 10:47:27.694 [TaskFinalizer-2] DEBUG nextflow.Session - Session aborted -- Cause: Process `STATISTICAL_MODELING (1)` terminated with an error exit status (1)
+Oct-22 10:47:27.705 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Oct-22 10:47:27.705 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Oct-22 10:47:27.711 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=1; ignoredCount=0; cachedCount=1; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=3.4s; failedDuration=7.7s; cachedDuration=1.2s;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
+Oct-22 10:47:27.916 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Oct-22 10:47:27.927 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

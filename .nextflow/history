@@ -1,0 +1,6 @@
+2024-10-22 10:41:42	8.6s	pedantic_torvalds	ERR	983603582e8a353a8d58ccb490bc8f1f	26bfed04-8a69-4f0a-b847-3078146792ba	nextflow run main.nf
+2024-10-22 10:44:59	5s	sharp_nightingale	ERR	983603582e8a353a8d58ccb490bc8f1f	786ae779-f672-4a52-9f09-e3ceb55d14c0	nextflow run main.nf
+2024-10-22 10:47:19	8.9s	lethal_rubens	ERR	983603582e8a353a8d58ccb490bc8f1f	786ae779-f672-4a52-9f09-e3ceb55d14c0	nextflow run main.nf -resume
+2024-10-22 10:49:10	2.6s	stoic_sax	ERR	983603582e8a353a8d58ccb490bc8f1f	786ae779-f672-4a52-9f09-e3ceb55d14c0	nextflow run main.nf -resume
+2024-10-22 11:17:16	7.5s	trusting_aryabhata	ERR	f4dec982e5251888855916197fd3151b	962c5644-9182-44e3-a958-2c1c72997a95	nextflow run main.nf
+2024-10-22 11:18:43	5.7s	cranky_elion	OK	f4dec982e5251888855916197fd3151b	962c5644-9182-44e3-a958-2c1c72997a95	nextflow run main.nf -resume
