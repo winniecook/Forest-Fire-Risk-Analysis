@@ -1,6 +1,6 @@
 # Forest Fire Analysis Pipeline
 
-This project is an advanced data analysis pipeline for forest fire data, using Python and R for analysis, Conda for environment management, Docker for containerization, and Nextflow for workflow management.
+This project is an advanced data analysis pipeline for forest fire data, using Python for analysis, Conda for environment management, Docker for containerization, and Nextflow for workflow management.
 
 ## Project Structure
 
@@ -12,7 +12,7 @@ forest-fire-analysis/
 │   ├── 01_data_preprocessing.py
 │   ├── 02_exploratory_analysis.py
 │   ├── 03_statistical_modeling.py
-│   └── 04_visualization.R
+│   └── 04_visualization.py
 ├── notebooks/
 │   └── forest_fire_analysis.ipynb
 ├── results/
